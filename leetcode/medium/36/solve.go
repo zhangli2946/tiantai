@@ -1,5 +1,7 @@
 package _36
 
+var IsValidSudoku = isValidSudoku
+
 func isValidSudoku(board [][]byte) bool {
     for i, row := range board {
         for j, val := range row {

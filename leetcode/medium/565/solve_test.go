@@ -17,7 +17,7 @@ func TestSolve(t *testing.T) {
         {[]int{0,1,2}, 1},
     } {
         t.Run(fmt.Sprintf("case%05d", i), func(t *testing.T) {
-            assert.Equal(t, arrayNesting(kase.Array), kase.Result)
+            assert.Equal(t, arrayNesting2(kase.Array), kase.Result)
         })
     }
 }
